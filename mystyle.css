@@ -1,0 +1,98 @@
+body {
+background-image: url(./ASSETS/opacity\ 3.jpeg)
+}
+h1 {
+  color: pink;
+  margin-left: 20px;
+}
+.me{
+  display: flex;
+  padding: 20px;
+  margin:5px 40px;
+}
+.follow-us{
+display: flex;
+  margin: 10px 5px;
+}
+.start{
+  margin: 0px 10px;
+}
+.services{
+  display: grid;
+  margin: 5px 40px;
+  padding: 5px 20px;
+}
+  .cute{
+    background-color: rgba(196, 232, 255, 0.901);
+  }
+  .okay{
+    margin-top: 50px;
+  }
+  .service4{
+    margin-bottom: 100px;
+  }
+  .gone{
+    display: flex;
+    margin: 10px 50px;
+    padding: 20px;
+  }
+  .second{
+    display: flex;
+    padding: 20px;
+  }
+  .form-control{
+    font-style: italic;
+    font-size: small;
+  }
+  .picture{
+    margin: 10px 50px;
+  }
+  .workdone{
+    display: ;
+    justify-content: center;
+    background-color: azure;
+    padding: 5px 20px;
+    margin-top: 30px;
+    font-weight: bolder;
+  }
+  .secondat{
+    margin-left: 50px;
+  }
+  .third{
+    margin-left: 50px;
+  }
+  .fourth{
+    margin-left: 50px;
+  }
+  .latest{
+    margin-top: 30px;
+    font-weight: bolder;
+  }
+  .show{
+    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Media Queries */
+  @media (max-width: 500px){
+    .second{
+      display: block;
+    }
+  .me{
+    display: block;
+  }
+  .gone{
+   display: block;
+  }
+  .workdone{
+    display:block ;
+  }
+  .stick{
+    display: block;
+  }
+  .container{
+    display: block;
+  }
+  .workdone{
+    display: block;
+  }
+}

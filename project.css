@@ -1,0 +1,13 @@
+.form-control{
+    font-size: small;
+    font-style: italic;
+}
+.navitem2{
+    margin-left: 100px;
+}
+/* MEDIA QUERIES */
+@media (max-width: 500px){
+    .yes{
+         display: block;
+}
+}

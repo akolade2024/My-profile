@@ -1,0 +1,27 @@
+.idan{
+    background-color: darkblue
+}
+.content{
+    display: flex;
+    margin: 5px 20px;
+    padding: 5px 20px; 
+}
+.star{
+    display: flex;
+    background-color: white
+}
+.boss{
+    background-color: darkblue;
+}
+.total-work{
+    background-color: darkgrey;
+}
+ /* Media Queries */
+ @media (max-width: 500px){
+.idan{
+    display: block;
+}
+.content{
+    display: block;
+}
+}
